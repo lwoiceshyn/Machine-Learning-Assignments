@@ -140,7 +140,6 @@ if __name__ == '__main__':
 
 
 
-    # TODO generate plots
     if valid_or_test == 0:
         plt.figure(1)
         plt.plot(iterations_plot, cev_plot, lw=2)
