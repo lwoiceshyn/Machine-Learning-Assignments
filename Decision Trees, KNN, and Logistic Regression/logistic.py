@@ -128,7 +128,7 @@ def logistic_pen(weights, data, targets, hyperparameters):
         df:            (M+1) x 1 vector of accumulative derivative of f w.r.t. weights, i.e. don't need to average over number of sample
     """
 
-    # TODO: Finish this function
+
     N, M = data.shape
     y = logistic_predict(weights, data)
 
