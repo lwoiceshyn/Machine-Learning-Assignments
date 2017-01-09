@@ -10,13 +10,13 @@ iterations = 0
 
 def run_logistic_regression(hyperparameters):
     global iterations, valid_or_test
-    # TODO specify training data
+
 
     #Comment out one of these based on small or large training set
     train_inputs, train_targets = load_train()
     # train_inputs, train_targets = load_train_small()
 
-    #Comment out one set of thse based on validation or test set
+    #Comment out one set of these based on validation or test set
     valid_inputs, valid_targets = load_valid()
     valid_or_test = 0
 
