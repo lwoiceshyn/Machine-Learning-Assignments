@@ -192,8 +192,6 @@ def q4():
         K = numComponents[t]
 
         # Train a MoG model with K components
-        # Hints: using (x_train_anger, x_train_happy) train 2 MoGs
-        #-------------------- Add your code here ------------------------------
         p_angry, mu_angry, vary_angry, log_likelihood_train_angry = mogEM(x_train_anger, K, iters, randConst=randConst, minVary=minVary)
 
         p_happy, mu_happy, vary_happy, log_likelihood_train_happy = mogEM(x_train_happy, K, iters, randConst=randConst, minVary=minVary)
@@ -228,7 +226,7 @@ def q4():
     # Plot the error rate
     plt.figure(0)
     plt.clf()
-    #-------------------- Add your code here --------------------------------
+
     plt.plot(numComponents, errorTrain, 'r', label='Training')
     plt.plot(numComponents, errorValidation, 'g', label='Validation')
     plt.plot(numComponents, errorTest, 'b', label='Testing')
