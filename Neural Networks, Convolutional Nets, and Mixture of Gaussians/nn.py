@@ -1,21 +1,4 @@
 #Leo Woiceshyn, 998082159, for CSC2515 Fall 2016
-"""
-Instruction:
-
-In this section, you are asked to train a NN with different hyperparameters.
-To start with training, you need to fill in the incomplete code. There are 3
-places that you need to complete:
-a) Backward pass equations for an affine layer (linear transformation + bias).
-b) Backward pass equations for ReLU activation function.
-c) Weight update equations with momentum.
-
-After correctly fill in the code, modify the hyperparameters in "main()".
-You can then run this file with the command: "python nn.py" in your terminal.
-The program will automatically check your gradient implementation before start.
-The program will print out the training progress, and it will display the
-training curve by the end. You can optionally save the model by uncommenting
-the lines in "main()".
-"""
 
 from __future__ import division
 from __future__ import print_function
