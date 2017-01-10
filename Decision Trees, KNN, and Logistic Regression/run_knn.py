@@ -29,11 +29,10 @@ def run_knn(k, train_data, train_labels, valid_data):
     """
 
 
-    # TODO call l2_distance to compute distance between valid data and train data
+   
     # Creates a N_VALID x N_TRAIN matrix with rows representing the validation data examples and columns representing the l2 distance to each training example
     distance = l2_distance(valid_data.T, train_data.T)
 
-    # TODO sort the distance to get top k nearest data
 
     #For the k=1 case, find the minimum value in each row in the distance matrix, and convert to a 1 x N_VALID matrix of indices
     if k == 1:
