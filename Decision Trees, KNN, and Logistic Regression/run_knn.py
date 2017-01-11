@@ -1,5 +1,4 @@
 # Leo Woiceshyn, Student Number 998082159, for CSC2515 Assignment 1
-
 import numpy as np
 from l2_distance import l2_distance
 
